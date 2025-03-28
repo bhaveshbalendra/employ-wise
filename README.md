@@ -32,21 +32,22 @@ A responsive React application for user management with modern UI and UX practic
 
 1. Clone the repository
 
-```bash
-git clone https://github.com/bhaveshbalendra/employ-wise.git
-cd employ-wise
-```
+   ```bash
+   git clone https://github.com/bhaveshbalendra/employ-wise.git
+   cd employ-wise
+   ```
 
 2. Install dependencies
 
-````bash
-npm install
+   ```bash
+   npm install
+   ```
 
 3. Start the development server
 
-```bash
-npm run dev
-
+   ```bash
+   npm run dev
+   ```
 
 4. Open your browser and navigate to `http://localhost:5173`
 
@@ -67,20 +68,18 @@ npm run dev
 
 ## Project Structure
 
-````
-
+```
 src/
-├── components/ # Reusable components
-├── constants/ # Application constants
-├── pages/ # Application pages
-│ ├── login/ # Login page
-│ ├── users-list/ # User list page
-│ └── edit-user/ # Edit user page
-├── store/ # Redux store configuration
-│ └── slices/ # Redux slices and API endpoints
-├── types/ # TypeScript type definitions
-└── App.tsx # Application entry point
-
+├── components/     # Reusable components
+├── constants/      # Application constants
+├── pages/          # Application pages
+│   ├── login/      # Login page
+│   ├── users-list/ # User list page
+│   └── edit-user/  # Edit user page
+├── store/          # Redux store configuration
+│   └── slices/     # Redux slices and API endpoints
+├── types/          # TypeScript type definitions
+└── App.tsx         # Application entry point
 ```
 
 ## API Integration
@@ -106,5 +105,3 @@ Responsive features include:
 - Properly sized components for touch interfaces
 - Optimized typography and spacing
 - Skeleton loaders that match the layout
-
-```
