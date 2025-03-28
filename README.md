@@ -33,7 +33,7 @@ A responsive React application for user management with modern UI and UX practic
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/employ-wise.git
+git clone https://github.com/bhaveshbalendra/employ-wise.git
 cd employ-wise
 ```
 
